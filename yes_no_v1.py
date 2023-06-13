@@ -2,7 +2,7 @@
 
 
 # main routine goes here
-want_instructions = input("Do you want to read the instructions? (Y/N): ")
+want_instructions = input("Do you want to read the instructions? (Y/N): ").lower()Y
 
 if want_instructions == "y":
     print("Instructions go here")
